@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Explore from './components/Explore';
 import More from './components/More';
@@ -16,3 +16,4 @@ const App = () => {
 };
 
 export default App;
+
